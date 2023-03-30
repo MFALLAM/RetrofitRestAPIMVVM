@@ -4,5 +4,5 @@ public class Constants {
     
     public static final String BASE_URL = "https://food2fork.ca/";
 
-    public static final String API_KEY = "Token 9c8b06d329136da358c2d00e76946b0111ce2c48";
+    public static final String API_KEY = "Authorization: Token 9c8b06d329136da358c2d00e76946b0111ce2c48";
 }
