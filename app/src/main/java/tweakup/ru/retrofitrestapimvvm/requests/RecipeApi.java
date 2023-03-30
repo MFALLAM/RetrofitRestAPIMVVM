@@ -10,16 +10,16 @@ import tweakup.ru.retrofitrestapimvvm.util.Constants;
 
 public interface RecipeApi {
     // search query
-    @GET("api/recipe/search/")
     @Headers({Constants.API_KEY})
+    @GET("api/recipe/search/")
     Call<RecipeSearchResponse> searchRecipe(
             @Query("query") String query,
             @Query("page") String page
     );
 
     // get
-    @GET("api/recipe/get/{id}")
     @Headers({Constants.API_KEY})
+    @GET("api/recipe/get/")
     Call<RecipeResponse> getRecipe(
             @Query("id") String id
     );
